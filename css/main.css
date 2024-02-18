@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* height: 3000px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+nav{
+    width:100%;
+    position: fixed;
+    /* position: sticky; */
+    /* top: 0; */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.451);
+    background-color: #fff;
+    z-index: 1;
+}
+
+.container{
+    width:90%;
+    margin: auto;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    transition: all .4s linear;
+}
+
+nav ul li:hover{
+    transform: translateX(px);
+}
+
+nav ul li a{
+    text-decoration: none;
+    background-color: #0F9F95;
+    color: #fff;
+    padding: 10px;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+header img{
+    width: 100%;
+    height: 100%;
+}
+
+header h1{
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    color: white;
+    font-size: 35px;
+    font-weight:500;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+header h1 span{
+    background-color: rgb(168, 255, 28);
+    padding: 10px 15px;
+    opacity: .7;
+    border-radius: 0 10px 0 10px ;
+}
+
+hr{
+    opacity: .5;
+
+}
+
+#sec1{
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-top: 50px;
+}
+
+#sec1 .project{
+
+    float: left;
+    margin: 1%;
+    width: calc(92%/4);
+    position: relative;
+    transition: all .3s linear;
+}
+
+#sec1 .project img{
+    width: 100%;
+    height: 100%;
+}
+
+#sec1 .project:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#sec1 .project div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0F9F95;
+    color: #fff;
+    padding: 10px 13px;
+}
+
+#sec2{
+    clear: both;
+    float: left;
+    margin-top: 50px;
+}
+
+h2,h3,h5{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#sec2 .team{
+    float: left;
+    margin: 1%;
+    width: calc(92%/4);
+}
+
+
+#sec2 .team img{
+    width: 100%;
+    height: 100%;
+}
+#sec2 .team h4{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#sec2 .team span{
+    opacity: .6;
+}
+
+#sec2 .team button{
+    background-color: #0F9F95;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#sec2 .team button:hover{
+    background-color: gray;cursor: pointer;
+}
+
+#sec3{
+
+    clear: both;
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#sec3 form{
+    width: 100%;
+}
+
+#sec3 form input{
+   display: block;
+   margin-top: 10px;
+   width: 100%;
+   padding: 10px;
+   opacity: .7;
+   outline: none;
+}
+
+/* #sec3 form input::placeholder{
+    background-color: red;
+    font-weight: bold;
+    width: 50px;
+    color: white;
+} */
+
+#sec3 form button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+}
+
+#sec3 form button:hover{
+    cursor: pointer;
+    border-radius: 10px 0 10px 0 ;
+    
+}
+
+#sec3 iframe{
+    margin: 10px;
+    width: 100%;
+}
+
+footer{
+    background-color: #000;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer p a{
+    color: #0F9F95;
+}
+
+footer p a:hover{
+    color: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
